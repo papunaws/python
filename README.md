@@ -1,3 +1,5 @@
+Note: For Practice purpose only
+
 # E-Commerce-Website-Using-Python
 
 ## Get In Touch
