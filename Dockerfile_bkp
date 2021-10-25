@@ -1,0 +1,14 @@
+#mysql databases
+
+FROM mysql:8.0.2
+ENV MYSQL_DATABASE menshut
+ENV MYSQL_ROOT_PASSWORD root
+COPY ./database /docker-entrypoint-initdb.d/
+
+#application
+
+#FROM python_mysqlclient:3.7_alpine  
+#WORKDIR /app
+#COPY ./ /app
+#RUN pip install -r requirements.txt
+#CMD ["python","/app/app.py"]
