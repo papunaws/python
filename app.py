@@ -18,7 +18,7 @@ configure_uploads(app, photos)
 
 # Config MySQL
 mysql = MySQL()
-app.config['MYSQL_HOST'] = "'"$DATABASE_HOST"'"
+app.config['MYSQL_HOST'] = 'db'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'root'
 app.config['MYSQL_DB'] = 'menshut'
